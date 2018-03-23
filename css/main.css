@@ -12,11 +12,31 @@
     transition: background 0.15s ease;
  }
 
-#contactLink{
-  height: 100px;
+
+ #console {
+     width: 750px;
+     padding: 20px 40px;
+     height: 470px;
+     margin: 0 auto;
+     background: #383737;
+ }
+
+ #code {
+    /* margin-top: 150px; */
+    border-radius: 5px;
+    width: 750px;
+    margin: 0 auto;
+    padding-top: 15px;
+    font-size: 30px;
+    background: #ccc;
+    height: 410px;
+    font-family: 'Monaco', 'Courier New';
+    text-align: left;
+    font-size: 13px;
+    color: #fafafa;
 }
 
-#locationLink .row{
+#contactLink{
   height: 100px;
 }
 
@@ -25,10 +45,10 @@
 }
 
 #home .row{
-    padding: 16.5% 0;
+    padding: 15.5% 0;
 }
 
- .work, .skill, .cody, .location{
+ .work, .skill,{
     padding: 10%;
 }
 
@@ -150,12 +170,13 @@ p{
     font-size: 1.3rem;
 }
 
+
 #title{
   font-family: Helvetica, sans-serif;
   font-size: 3em;
   font-weight: 400;
   text-align: center;
-  padding: 10% 0 0 0;
+  padding: 10% 0 2% 0;
 }
 
 /*Home*/
@@ -190,11 +211,11 @@ p{
 
 /*Experience*/
 .experience h3,.experience h4,.experience h5,.experience p{
-    color: #d6d6d6;
+    color: #383737;
 }
 .clark-icon{
-  width : 170px ;
-  height : 170px ;
+    width: 790px;
+    height: 570px;
 }
 
 /*Projects*/
@@ -223,23 +244,6 @@ p{
 #researchTitle a:hover{
     color: #2c3e50 !important;
     text-decoration: none;
-}
-
-/*Location*/
-.map{
-    height: 700px;
-}
-.location{
-    background-image: url(../images/location.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.location h3,p{
-    color: white;
-}
-.cody{
-  padding: 25% 5%;
-  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
 }
 
 /*Site Updated*/
@@ -521,22 +525,17 @@ input:-webkit-autofill{
   .work, .research{
     padding: 3% 5%;
   }
-  .location{
-      background-image: url(../images/location-mobile.png);
-      background-size: cover;
-      background-repeat: no-repeat;
-  }
   .contact{
     margin: 15% 0;
   }
   .socialMedia ul{
-    left: 30%;
-    transform: translate(-20%, 0%);
+    left: 40%;
+    transform: translate(-30%, 0%);
   }
   .socialMedia ul li{
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
   }
   element.style {
     height: 60px !important;
@@ -557,10 +556,6 @@ input:-webkit-autofill{
   #experienceLink, #projectsLink, #researchLink{
     padding-top: 20%;
   }
-  .clark-icon{
-    width : 130px ;
-    height : 130px ;
-  }
   .experience #title {
     font-size: 3.3rem;
   }
@@ -579,7 +574,7 @@ input:-webkit-autofill{
   .contact #title{
     padding-top: 40px;
   }
-  /*.socialMedia ul{
+  .socialMedia ul{
     left: 30%;
     transform: translate(-20%, 0%);
   }
@@ -587,5 +582,5 @@ input:-webkit-autofill{
     width: 45px;
     height: 45px;
     line-height: 45px;
-  }*/
+  }
 }
